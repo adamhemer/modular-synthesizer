@@ -127,3 +127,4 @@ The fourth addition was an ADSR to generate an envelope for the VCA. Clear acryl
 <img src="images/image1.jpg" width="45%"><img src="images/image2.jpg" width="53.3%">
 <img src="images/image4.jpg">
 <img src="images/image3.jpg" width="53.6%"><img src="images/image5.jpg" width="45.8%">
+<img src="images/image6.png">
