@@ -108,15 +108,13 @@ I threw together a simple wooden rack using spare wood i had from an old set of 
 
 <img src="old_modules/psu_stripboard_layout.png">
 
-<img src="old_modules/vco_in_case.jpg" width="49%">
-<img src="old_modules/vco_in_case_2.jpg" width="49%">
+<img src="old_modules/vco_in_case.jpg" width="49%"><img src="old_modules/vco_in_case_2.jpg" width="49%">
 
 ## Dual VCA + LFO
 
 After the VCO, I built a dual VCA and LFO to allow for an envelope on the sound. The documentation here is limited due to these modules being built rapidly within a few days.
 
-<img src="old_modules/vco_vca_lfo_side.jpg" width="46%">
-<img src="old_modules/vco_vca_lfo_top.jpg" width="45%">
+<img src="old_modules/vco_vca_lfo_side.jpg" width="49%"><img src="old_modules/vco_vca_lfo_top.jpg" width="49%">
 
 ## ADSR + Sequencer
 
@@ -126,8 +124,6 @@ The fourth addition was an ADSR to generate an envelope for the VCA. Clear acryl
 
 # Misc Photos
 
-<img src="images/image1.jpg" width="45%">
-<img src="images/image2.jpg" width="53.3%">
+<img src="images/image1.jpg" width="45%"><img src="images/image2.jpg" width="53.3%">
 <img src="images/image4.jpg">
-<img src="images/image3.jpg" width="53.6%">
-<img src="images/image5.jpg" width="45.8%">
+<img src="images/image3.jpg" width="53.6%"><img src="images/image5.jpg" width="45.8%">
