@@ -78,9 +78,7 @@ I put some patterning on the copper layer to give the panel some texture, while 
 *writeup coming soon!*
 <br>
 
-<img src="PSU/image1.jpg" width="34%">
-<img src="PSU/image2.jpg" width="34%">
-<img src="PSU/image3.jpg" width="28.8%">
+<img src="PSU/image1.jpg" width="34%"><img src="PSU/image2.jpg" width="34%"><img src="PSU/image3.jpg" width="28.8%">
 
 # XLR Output (XO)
 *writeup coming soon!*
