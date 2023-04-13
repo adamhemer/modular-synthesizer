@@ -91,8 +91,8 @@ I put some patterning on the copper layer to give the panel some texture, while 
 *writeup coming soon!*
 <br>
 
-<img src="CD/image2.jpg" width="30%"><img src="CD/image1.jpg" width="30%"><img src="CD/image3.jpg" width="30%">
-<img src="CD/image4.jpg" width="29.05%"><img src="CD/led_card.jpg" width="30.9%"><img src="CD/testing.png" width="32%">
+<img src="CD/image2.jpg" width="31%"><img src="CD/image1.jpg" width="31%"><img src="CD/image3.jpg" width="31%">
+<img src="CD/image4.jpg" width="29.1%"><img src="CD/led_card.jpg" width="30.95%"><img src="CD/testing.png" width="32.03%">
 
 
 # Old Modules
