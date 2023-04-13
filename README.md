@@ -65,7 +65,7 @@ I put some patterning on the copper layer to give the panel some texture, while 
 # Mixer
 *writeup coming soon!*
 
-<img src="Mixer/pcb_populated.jpg" width="30%"><img src="Mixer/testing.jpg" width="30%"><img src="Mixer/image1.jpg" width="25.8%">
+<img src="Mixer/pcb_populated.jpg" width="32%"><img src="Mixer/testing.jpg" width="32%"><img src="Mixer/image1.jpg" width="27.6%">
 
 # Quad Multiple (QX)
 *writeup coming soon!*
