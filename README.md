@@ -14,15 +14,9 @@ This repo is a documentation of my DIY modular syntheszier project. It contains 
 - [VCO](#voltage-controlled-oscillator-vco)
 - [Mixer](#mixer)
 - [Quad Multiple](#quad-multiple-qx)
+- [ADSR Digital](#adsr-digital)
 - [XLR Output](#xlr-output-xo)
 - [Clock Divider](#clock-divider-cd)
-
-## Work In Progress
-
-- Steiner Filter
-- VCA
-- Kick Drum
-- Touch Triggers
 
 ## Old Modules
 
@@ -30,6 +24,13 @@ This repo is a documentation of my DIY modular syntheszier project. It contains 
  - [Case + PSU](#dual-vca--lfo)
  - [Dual VCA + LFO](#dual-vca--lfo)
  - [ADSR + Sequencer](#adsr--sequencer)
+
+## Work In Progress
+
+- Steiner Filter
+- Quad VCA
+- Kick Drum
+- Touch Triggers
 
 ## Gallery
 
@@ -79,8 +80,16 @@ I put some patterning on the copper layer to give the panel some texture, while 
 <img src="XO/image1.jpg" width="25%"><img src="XO/image2.jpg" width="24.7%"><img src="XO/image5.jpg" width="22.7%"><img src="XO/image6.jpg" width="23.5%">
 <img src="XO/image3.jpg" width="49%"><img src="XO/image4.jpg" width="49%">
 
+# ADSR Digital
+*writeup coming soon!*
+<br>
+
+<img src="ADSR/image1.jpg" width="49%"><img src="ADSR/image3.jpg" width="49%">
+<img src="ADSR/image2.jpg">
+
 # Clock Divider (CD)
 *writeup coming soon!*
+<br>
 
 <img src="CD/image2.jpg" width="30%"><img src="CD/image1.jpg" width="30%"><img src="CD/image3.jpg" width="30%">
 <img src="CD/image4.jpg" width="29.05%"><img src="CD/led_card.jpg" width="30.9%"><img src="CD/testing.png" width="32%">
