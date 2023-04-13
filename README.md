@@ -14,6 +14,7 @@ This repo is a documentation of my DIY modular syntheszier project. It contains 
 - [VCO](#voltage-controlled-oscillator-vco)
 - [Mixer](#mixer)
 - [Quad Multiple](#quad-multiple-qx)
+- [PSU](#power-supply-psu)
 - [ADSR Digital](#adsr-digital)
 - [XLR Output](#xlr-output-xo)
 - [Clock Divider](#clock-divider-cd)
@@ -73,6 +74,13 @@ I put some patterning on the copper layer to give the panel some texture, while 
 <img src="QX/image1.jpg" width="30%"><img src="QX/image2.jpg" width="30%"><img src="QX/image3.jpg" width="27.5%">
 <img src="QX/image4.jpg" width="87.5%">
 
+# Power Supply (PSU)
+*writeup coming soon!*
+<br>
+
+<img src="PSU/image1.jpg" width="34%">
+<img src="PSU/image2.jpg" width="34%">
+<img src="PSU/image3.jpg" width="28.8%">
 
 # XLR Output (XO)
 *writeup coming soon!*
