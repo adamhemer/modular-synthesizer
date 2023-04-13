@@ -114,7 +114,7 @@ I threw together a simple wooden rack using spare wood i had from an old set of 
 
 After the VCO, I built a dual VCA and LFO to allow for an envelope on the sound. The documentation here is limited due to these modules being built rapidly within a few days.
 
-<img src="old_modules/vco_vca_lfo_side.jpg" width="49%"><img src="old_modules/vco_vca_lfo_top.jpg" width="49%">
+<img src="old_modules/vco_vca_lfo_side.jpg" width="49%"><img src="old_modules/vco_vca_lfo_top.jpg" width="47.8%">
 
 ## ADSR + Sequencer
 
