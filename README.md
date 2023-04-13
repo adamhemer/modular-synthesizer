@@ -59,7 +59,7 @@ I put some patterning on the copper layer to give the panel some texture, while 
 # XLR Output (XO)
 *writeup coming soon!*
 
-| <img src="XO/image1.jpg" width="25%"> | <img src="XO/image2.jpg" width="24.7%"> | <img src="XO/image5.jpg" width="22.7%"> | <img src="XO/image6.jpg" width="23.5%"> |
+| <img src="XO/image1.jpg"> | <img src="XO/image2.jpg"> | <img src="XO/image5.jpg"> | <img src="XO/image6.jpg"> |
 | - | - | - | - |
 | a | b | c | d |
 
