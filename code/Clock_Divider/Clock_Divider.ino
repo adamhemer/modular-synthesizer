@@ -44,6 +44,7 @@ void interruptB() {
 }
 
 void updateOutputA() {
+    // Determine output for A channel
     int A2 = (clockA % 2 == 0);
     int A3 = (clockA % 3 == 0) << 1;
     int A4 = (clockA % 4 == 0) << 2;
@@ -52,8 +53,11 @@ void updateOutputA() {
     int A7 = (clockA % 7 == 0) << 5;
     int A8 = (clockA % 8 == 0) << 6;
     int A16 = (clockA % 16 == 0) << 7;
+
+    // Combine into one byte for shifting
     ASum = A2 + A3 + A4 + A5 + A6 + A7 + A8 + A16;
 
+    // Calculate outputs for shift register 5
     int Ainput = 1 << 5;
     int A32_led = (clockA % 32 == 0) << 3;
     int A32_trig = (clockA % 32 == 0);
@@ -61,10 +65,12 @@ void updateOutputA() {
     C_A_leds = Ainput + A32_led;
     C_A_trig = A32_trig;
 
+    // Shift out data
     updateShiftRegisters();
 }
 
 void updateOutputB() {
+    // Determine output for B channel
     int B2 = (clockB % 2 == 0);
     int B3 = (clockB % 3 == 0) << 1;
     int B4 = (clockB % 4 == 0) << 2;
@@ -73,8 +79,11 @@ void updateOutputB() {
     int B7 = (clockB % 7 == 0) << 5;
     int B8 = (clockB % 8 == 0) << 6;
     int B16 = (clockB % 16 == 0) << 7;
+
+    // Combine into one byte for shifting
     BSum = B2 + B3 + B4 + B5 + B6 + B7 + B8 + B16;
 
+    // Calculate outputs for shift register 5
     int Binput = 1 << 4;
     int B32_led = (clockB % 32 == 0) << 2;
     int B32_trig = (clockB % 32 == 0) << 1;
@@ -82,34 +91,38 @@ void updateOutputB() {
     C_B_leds = Binput + B32_led;
     C_B_trig = B32_trig;
 
+    // Shift out data
     updateShiftRegisters();
 }
 
 void updateShiftRegisters() {
     int A_leds = 0, B_leds = 0, A_outputs = 0, B_outputs = 0, C = 0;
 
-    // Triggers
+    // If Triggers for A are active
     if (clockA_trig != UINT_MAX) {
         A_outputs = ASum;
         C += C_A_trig;
     }
 
+    // If Triggers for B are active
     if (clockB_trig != UINT_MAX) {
         B_outputs = BSum;
         C += C_B_trig;
     }
 
-    // LEDs
+    // If LEDs for A are be on
     if (clockA_led != UINT_MAX) {
         A_leds = ASum;
         C += C_A_leds;
     }
 
+    // If LEDs for B are be on
     if (clockB_led != UINT_MAX) {
         B_leds = BSum;
         C += C_B_leds;
     }
 
+    // Output to shift registers
     digitalWrite(LATCH, LOW);
     shiftOut(DATA, CLOCK, MSBFIRST, C);
     shiftOut(DATA, CLOCK, MSBFIRST, A_leds);
@@ -127,6 +140,7 @@ void setup() {
     clockA = 0;
     clockB = 0;
 
+    // Pin Definitions
     pinMode(LATCH, OUTPUT);
     pinMode(CLOCK, OUTPUT);
     pinMode(DATA, OUTPUT);
@@ -175,7 +189,9 @@ void loop() {
     delayMicroseconds(LOOP_DELAY);
 }
 
+// TESTING ONLY - Activates LED indexed by i from 0 to 20.
 void indexLed(int i) {
+    // Calculate register values
     int _1 = 0, _2 = 0, _3 = 0, _4 = 0, _5 = 0;
     if (i < 2) {
         if (i == 0) {
@@ -199,6 +215,8 @@ void indexLed(int i) {
             _1 = 1 << 2;
         }     
     }
+
+    // Shift out
     digitalWrite(LATCH, LOW);
     shiftOut(DATA, CLOCK, MSBFIRST, _1);
     shiftOut(DATA, CLOCK, MSBFIRST, _2);
