@@ -71,7 +71,7 @@ I put some patterning on the copper layer to give the panel some texture, while 
 *writeup coming soon!*
 
 <img src="QX/image1.jpg" width="30%"><img src="QX/image2.jpg" width="30%"><img src="QX/image3.jpg" width="27.5%">
-<img src="QX/image4.jpg" width="80%">
+<img src="QX/image4.jpg" width="87.5%">
 
 
 # XLR Output (XO)
