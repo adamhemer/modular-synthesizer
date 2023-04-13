@@ -60,6 +60,8 @@ I put some patterning on the copper layer to give the panel some texture, while 
 *writeup coming soon!*
 
 | <img src="XO/image1.jpg" width="25%"> | <img src="XO/image2.jpg" width="24.7%"> | <img src="XO/image5.jpg" width="22.7%"> | <img src="XO/image6.jpg" width="23.5%"> |
+| - | - | - | - |
+| a | b | c | d |
 
 | a | b |
 | - | - |
