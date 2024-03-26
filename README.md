@@ -7,7 +7,11 @@ This repo is a documentation of my DIY modular syntheszier project. It contains 
 
 <br>
 
-# Modules
+# Components
+
+## Cases
+
+ - [Briefcase](#briefcase)
 
 ## Completed Modules
 
@@ -19,6 +23,7 @@ This repo is a documentation of my DIY modular syntheszier project. It contains 
 - [XLR Output](#xlr-output-xo)
 - [Clock Divider](#clock-divider-cd)
 - [Touch Pads](#touch-pads-tp)
+- [Dual Headphone Output](#dual-headphone-output-dho)
 
 ## Old Modules
 
@@ -39,6 +44,19 @@ This repo is a documentation of my DIY modular syntheszier project. It contains 
 - [Misc Photos](#misc-photos)
 
 <br>
+
+
+# Briefcase
+
+To make the synth easier to move and store, a 168HP case was made from two rows of 84HP rail. The rails were mounted into a case from [Bunnings](https://www.bunnings.com.au/craftright-45cm-aluminium-tool-case_p0331036) that is coincidentally exactly the right inner width for the rails.
+
+<img src="Briefcase/image3.jpg" width="49%"><img src="Briefcase/image8.jpg" width="49%">
+<img src="Briefcase/image1.jpg" width="47.5%"><img src="Briefcase/image2.jpg" width="51.1%">
+
+The rails are held in using M4 bolts with nyloc nuts on the inside. These 8 nuts provide sufficient support for the rails and results in a very strong frame. The top speaker bar is a piece of spotted gum with linseed oil. It is supported by an MDF frame with the powersupply attached. 
+
+<img src="Briefcase/image5.jpg" width="49%"><img src="Briefcase/image6.jpg" width="49%">
+
 
 # Voltage Controlled Oscillator (VCO)
 
@@ -80,6 +98,7 @@ I put some patterning on the copper layer to give the panel some texture, while 
 <br>
 
 <img src="PSU/image1.jpg" width="34%"><img src="PSU/image2.jpg" width="34%"><img src="PSU/image3.jpg" width="28.8%">
+<img src="PSU/image4.png" width="46.4%"><img src="PSU/image5.png" width="50%">
 
 # XLR Output (XO)
 *writeup coming soon!*
@@ -117,6 +136,12 @@ Despite the high resistance of skin, it is enough to dominate in a voltage divid
 <img src="TP/image2.jpg" width="50%"><img src="TP/image3.jpg" width="50%">
 <img src="TP/image1.jpg" width="100%">
 
+# Dual Headphone Output (DHO)
+
+This module provides two headphone outputs with two input sources. Each driver can select from either the master or cue bus with a switch at the bottom of the module. This allows for the two drivers to be used on completely different sources, or in a more tradition DJ mixer setup with a master and cue bus.
+
+<img src="DHO/image1.jpg" width="25%"><img src="DHO/image2.jpg" width="25%"><img src="DHO/image3.jpg" width="25%"><img src="DHO/image4.jpg" width="25%">
+
 # Old Modules
 
 These modules were built on breadboards for rapid prototyping, beforing being made semi-permanent using stripboard. I cut some scrap 2mm aluminium into a front panel and drilled out holes for the pots and jacks. The text is written on with sharpie.
@@ -132,6 +157,7 @@ Breadboarded VCO to test the AS3340 before converting it to a stripboard layout 
 The boards were then stacked and assembled behind the aluminium faceplate.
 
 <img src="old_modules/vco_assembly.jpg">
+
 
 ## Case + PSU
 
