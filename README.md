@@ -1,7 +1,7 @@
 
 # Modular Synthesizer Documentation
 
-This repo is a documentation of my DIY modular syntheszier project. It contains completed and WIP module documentation, as well as notes and ideas for future modules.
+This repo is a documentation of my DIY modular syntheszier project. It contains completed and WIP module documentation, as well as notes and ideas for future modules. The project was started in October 2021 and is still in progress as of March 2024.
 
 <img src="images/image4.jpg">
 
