@@ -18,6 +18,7 @@ This repo is a documentation of my DIY modular syntheszier project. It contains 
 - [ADSR Digital](#adsr-digital)
 - [XLR Output](#xlr-output-xo)
 - [Clock Divider](#clock-divider-cd)
+- [Touch Pads](#touch-pads-tp)
 
 ## Old Modules
 
@@ -87,7 +88,12 @@ I put some patterning on the copper layer to give the panel some texture, while 
 <img src="XO/image3.jpg" width="49%"><img src="XO/image4.jpg" width="49%">
 
 # ADSR Digital
-*writeup coming soon!*
+The ADSR Digital is a 555 timer based ADSR with outputs to indicate which stage of the envelope is currently active. The core of the design comes from the [Kassu ADSR](https://kassu2000.blogspot.com/2015/05/precision-adsr.html) which is based on the [Yusynth ADSR](http://yusynth.net/Modular/EN/ADSR/index_new.html).
+
+The envelope is then passed through several opamps which act as summing amps and comparators to determine which stage of the envelope.
+
+A retrigger input was also added that allows the attack phase to be restarted as long as the gate is active.
+
 <br>
 
 <img src="ADSR/image1.jpg" width="49%"><img src="ADSR/image3.jpg" width="49%">
@@ -100,6 +106,16 @@ I put some patterning on the copper layer to give the panel some texture, while 
 <img src="CD/image2.jpg" width="31%"><img src="CD/image1.jpg" width="31%"><img src="CD/image3.jpg" width="31%">
 <img src="CD/image4.jpg" width="29.1%"><img src="CD/led_card.jpg" width="30.95%"><img src="CD/testing.png" width="32.03%">
 
+# Touch Pads (TP)
+
+The touch pads use a MOSFET circuit that detects a press using the conductivity of skin.
+
+<img src="TP/image4.jpg" width="50%">
+
+Despite the high resistance of skin, it is enough to dominate in a voltage divider against the 22M and pull the gate of the mosfet low. This causes the MOSFET 
+
+<img src="TP/image2.jpg" width="50%"><img src="TP/image3.jpg" width="50%">
+<img src="TP/image1.jpg" width="100%">
 
 # Old Modules
 
