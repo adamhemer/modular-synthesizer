@@ -45,7 +45,6 @@ This repo is a documentation of my DIY modular syntheszier project. It contains 
 
 <br>
 
-
 # Briefcase
 
 To make the synth easier to move and store, a 168HP case was made from two rows of 84HP rail. The rails were mounted into a case from [Bunnings](https://www.bunnings.com.au/craftright-45cm-aluminium-tool-case_p0331036) that is coincidentally exactly the right inner width for the rails.
@@ -88,7 +87,7 @@ I put some patterning on the copper layer to give the panel some texture, while 
 <img src="Mixer/pcb_populated.jpg" width="32%"><img src="Mixer/testing.jpg" width="32%"><img src="Mixer/image1.jpg" width="27.6%">
 
 # Quad Multiple (QX)
-*writeup coming soon!*
+The Quad Multiple is a 4-way or 8-way buffer for multiplying signals. Each input, denoted by the white circle, is multiplied into the 4 outputs below it. The top two inputs are also the default input for the opposite bottom multipliers. In this state, the system acts as dual 8-way multipliers. When an input is inserted into the lower input jacks, the circuit is broken and they will then act as separate 4-way multipliers.
 
 <img src="QX/image1.jpg" width="30%"><img src="QX/image2.jpg" width="30%"><img src="QX/image3.jpg" width="27.5%">
 <img src="QX/image4.jpg" width="87.5%">
