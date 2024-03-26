@@ -17,12 +17,12 @@
 - [x] Quad Mult (QX)
 - [x] VCO
 - [x] ADSR with Digital Outs
-- [x] Steiner Filter
+- [x] Steiner VCF
 - [x] XLR Output (XO)
 - [x] Clock Divider
 - [ ] Kick Drum
 - [ ] Noise (White/Pink/Red)
-- [ ] Touch Triggers
+- [X] Touch Pads
 - [ ] Sequencer
 - [ ] Turing Machine
 - [ ] Keystep IO
