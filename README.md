@@ -97,6 +97,9 @@ The Quad Multiple is a 4-way or 8-way buffer for multiplying signals. Each input
 <br>
 
 <img src="PSU/image1.jpg" width="34%"><img src="PSU/image2.jpg" width="34%"><img src="PSU/image3.jpg" width="28.8%">
+
+Revision 1.1 - added half-wave rectifier with RC filter for AC input LED (yellow) to remove flicker. Squared corners to denote revision.
+
 <img src="PSU/image4.png" width="46.4%"><img src="PSU/image5.png" width="50%">
 
 # XLR Output (XO)
